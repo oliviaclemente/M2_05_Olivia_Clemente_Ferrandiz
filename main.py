@@ -28,3 +28,25 @@ print("Introduce 3 letras:")
 for x in range(3):
   letra.append(input("Introduce una letra:"))
 print(letra)
+contador=0
+while True:
+  letra= input("Introduce una palabra:")
+  if letra=="a":
+      contador+=1
+  elif letra== ".":
+      break
+print("Entonces la letra 'a' se ha introducido {contador} veces")
+print("")
+#ejercicio 4
+CP= "Introduce palabra:"
+CP+= "Introduce palabra:"
+listaP = CP.split()
+input("La cadena de palabra es:")
+print(listaP)
+input("La longitud es:")
+print(len(listaP))
+
+long= []
+for i in range(0, (len(listaP[1]))):
+  long.append(len(listaP[1][i]))
+print(long)
